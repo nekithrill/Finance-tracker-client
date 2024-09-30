@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Открываем порт для API
-EXPOSE 5000
+EXPOSE ${SERVER_PORT}
 
 # Команда для запуска сервера
 CMD ["npm", "run", "dev"]
