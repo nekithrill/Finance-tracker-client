@@ -1,0 +1,23 @@
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - '${VITE_PORT}:${VITE_PORT}'
+    volumes:
+      - ./client:/src
+      - ./client/vite.config.ts:/src/vite.config.ts
+    environment:
+      - NODE_ENV=development
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - '${SERVER_PORT}:${SERVER_PORT}'
+    volumes:
+      - ./server:/src
+    environment:
+      - NODE_ENV=development
