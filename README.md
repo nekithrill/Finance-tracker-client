@@ -1,1 +1,1 @@
-# Finance-tracker project
+# Finance-tracker client
