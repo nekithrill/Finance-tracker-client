@@ -1,6 +1,6 @@
 import Sidebar from 'components/Sidebar/Sidebar'
 import AccountPage from 'pages/AccountPage/AccountPage'
-import ManagementPage from 'pages/BillsPage/ManagementPage'
+import ManagementPage from 'pages/ManagementPage/ManagementPage'
 import GoalsPage from 'pages/GoalsPage/GoalsPage'
 import HomePage from 'pages/HomePage/HomePage'
 import NotFoundPage from 'pages/NotFoundPage/NotFoundPage'
