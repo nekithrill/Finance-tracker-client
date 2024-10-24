@@ -15,9 +15,6 @@
 		--clr-accent-500: hsl(193, 100%, 16%);
 		--clr-accent-600: hsl(193, 100%, 12%);
 		--clr-accent-700: hsl(193, 100%, 8%);
-
-		--border-color: cyan;
-		--layout-border: 0.15rem solid var(--border-color);
 	}
 
 	.dark-theme {
@@ -36,8 +33,5 @@
 		--clr-accent-500: hsl(193, 100%, 24%);
 		--clr-accent-600: hsl(193, 38%, 52%);
 		--clr-accent-700: hsl(193, 40%, 81%);
-
-		--border-color: yellow;
-		--layout-border: 0.15rem solid var(--border-color);
 	}
 }
