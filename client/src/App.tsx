@@ -1,32 +1,30 @@
-import { useState } from 'react'
+import Sidebar from 'components/Sidebar/Sidebar'
+import 'styles/main.scss'
 
-function App() {
-	const [count, setCount] = useState(0)
-
+export default function App() {
 	return (
 		<>
-			<div>
-				<a href='https://vitejs.dev' target='_blank'>
-					<img src='' className='logo' alt='Vite logo' />
-				</a>
-				<a href='https://react.dev' target='_blank'>
-					<img src='' className='logo react' alt='React logo' />
-				</a>
+			<div className='app'>
+				<div className='container'>
+					<Sidebar />
+					<div className='content'>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+							voluptas sunt, repellat suscipit mollitia a totam atque eos neque
+							iste, ipsam similique saepe architecto rerum dignissimos
+							voluptatibus! Ipsum, voluptas ea mollitia, id blanditiis doloribus
+							culpa commodi ex quod qui rerum accusantium odio ipsam expedita
+							eveniet perspiciatis ratione numquam enim officia! Ex veritatis
+							odit eaque reiciendis id praesentium aspernatur aliquid, at
+							reprehenderit sint ut ipsam culpa! Aperiam a dolores laudantium
+							facere at accusamus quisquam error? Sapiente quia dignissimos eius
+							corporis impedit cumque, molestias odio debitis numquam nam
+							pariatur eaque, veniam minus nihil iusto doloribus eveniet
+							blanditiis dolor libero officiis nisi quaerat.
+						</p>
+					</div>
+				</div>
 			</div>
-			<h1>Vite + React</h1>
-			<div className='card'>
-				<button onClick={() => setCount(count => count + 1)}>
-					count is {count}
-				</button>
-				<p>
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
-			</div>
-			<p className='read-the-docs'>
-				Click on the Vite and React logos to learn more
-			</p>
 		</>
 	)
 }
-
-export default App
