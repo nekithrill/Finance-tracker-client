@@ -1,0 +1,13 @@
+.management {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+	background: tomato;
+	padding: 1rem;
+	&__bottom {
+		display: flex;
+		gap: 1rem;
+		height: 100%;
+	}
+}
