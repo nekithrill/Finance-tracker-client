@@ -1,11 +1,13 @@
+import AccountPanel from 'components/Account/AccountPanel/AccountPanel'
 import { NavLink } from 'react-router-dom'
+import styles from './SidebarMenu.module.scss'
 
 const SidebarMenu = () => {
 	return (
 		<>
-			<div className='menu'>
+			<div className={styles['sidebar-menu']}>
 				<NavLink to='/account'>
-					<li>Account</li>
+					<AccountPanel />
 				</NavLink>
 
 				<ul>
@@ -26,4 +28,4 @@ const SidebarMenu = () => {
 	)
 }
 
-export default SidebarMenu;
+export default SidebarMenu
