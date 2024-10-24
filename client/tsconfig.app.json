@@ -17,7 +17,8 @@
 		"paths": {
 			"components/*": ["components/*"],
 			"assets/*": ["assets/*"],
-			"styles/*": ["styles/*"]
+			"styles/*": ["styles/*"],
+			"pages/*": ["pages/*"]
 		},
 
 		/* Linting */
