@@ -4,13 +4,13 @@ export default function SidebarMenu() {
 	return (
 		<>
 			<div className='menu'>
+				<NavLink to='/account'>
+					<li>Account</li>
+				</NavLink>
+
 				<ul>
 					<NavLink to='/'>
 						<li>Home</li>
-					</NavLink>
-
-					<NavLink to='/account'>
-						<li>Account</li>
 					</NavLink>
 
 					<NavLink to='/management'>
