@@ -1,6 +1,6 @@
 import styles from './SidebarHeader.module.scss'
 
-export default function SidebarHeader() {
+const SidebarHeader = () => {
 	return (
 		<>
 			<div className={styles.header}>
@@ -9,3 +9,5 @@ export default function SidebarHeader() {
 		</>
 	)
 }
+
+export default SidebarHeader;

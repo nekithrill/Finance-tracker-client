@@ -1,6 +1,6 @@
 import styles from './GoalsPage.module.scss'
 
-export default function GoalsPage() {
+const GoalsPage = () => {
 	return (
 		<>
 			<div className={styles.goals}>
@@ -16,3 +16,5 @@ export default function GoalsPage() {
 		</>
 	)
 }
+
+export default GoalsPage;

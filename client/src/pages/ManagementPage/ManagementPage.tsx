@@ -1,6 +1,6 @@
 import styles from './ManagementPage.module.scss'
 
-export default function ManagementPage() {
+const ManagementPage = () => {
 	return (
 		<>
 			<div className={styles.management}>
@@ -19,3 +19,5 @@ export default function ManagementPage() {
 		</>
 	)
 }
+
+export default ManagementPage;

@@ -1,6 +1,6 @@
 import styles from './HomePage.module.scss'
 
-export default function HomePage() {
+const HomePage = () => {
 	return (
 		<>
 			<div className={styles.home}>
@@ -15,3 +15,5 @@ export default function HomePage() {
 		</>
 	)
 }
+
+export default HomePage;

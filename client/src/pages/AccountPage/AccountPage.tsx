@@ -1,6 +1,6 @@
 import styles from './AccountPage.module.scss'
 
-export default function AccountPage() {
+const AccountPage = () => {
 	return (
 		<>
 			<div className={styles.account}>
@@ -17,3 +17,5 @@ export default function AccountPage() {
 		</>
 	)
 }
+
+export default AccountPage;

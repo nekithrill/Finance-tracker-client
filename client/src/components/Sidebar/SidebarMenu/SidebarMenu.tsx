@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 
-export default function SidebarMenu() {
+const SidebarMenu = () => {
 	return (
 		<>
 			<div className='menu'>
@@ -25,3 +25,5 @@ export default function SidebarMenu() {
 		</>
 	)
 }
+
+export default SidebarMenu;
