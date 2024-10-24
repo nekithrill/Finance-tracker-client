@@ -6,7 +6,7 @@ services:
     ports:
       - '${VITE_PORT}:${VITE_PORT}'
     volumes:
-      - ./client:/src
-      - ./client/vite.config.ts:/src/vite.config.ts
+      - ./client/src:/client/src
+      - ./client/vite.config.ts:/vite.config.ts
     environment:
       - NODE_ENV=development
