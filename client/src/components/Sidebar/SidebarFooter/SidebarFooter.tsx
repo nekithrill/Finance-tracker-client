@@ -1,6 +1,6 @@
 import styles from './SidebarFooter.module.scss'
 
-export default function SidebarFooter() {
+const SidebarFooter = () => {
 	return (
 		<>
 			<div className={styles.footer}>
@@ -12,3 +12,5 @@ export default function SidebarFooter() {
 		</>
 	)
 }
+
+export default SidebarFooter;

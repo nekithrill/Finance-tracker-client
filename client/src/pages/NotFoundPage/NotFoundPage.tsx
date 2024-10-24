@@ -1,6 +1,6 @@
 import styles from './NotFoundPage.module.scss'
 
-export default function NotFoundPage() {
+const NotFoundPage = () => {
 	return (
 		<>
 			<div className={styles.notfound}>
@@ -9,3 +9,5 @@ export default function NotFoundPage() {
 		</>
 	)
 }
+
+export default NotFoundPage;

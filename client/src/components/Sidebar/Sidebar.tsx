@@ -3,7 +3,7 @@ import SidebarFooter from './SidebarFooter/SidebarFooter'
 import SidebarHeader from './SidebarHeader/SidebarHeader'
 import SidebarMenu from './SidebarMenu/SidebarMenu'
 
-export default function Sidebar() {
+const Sidebar = () => {
 	return (
 		<>
 			<div className={styles.sidebar}>
@@ -14,3 +14,5 @@ export default function Sidebar() {
 		</>
 	)
 }
+
+export default Sidebar;

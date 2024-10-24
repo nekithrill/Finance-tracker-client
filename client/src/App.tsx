@@ -7,7 +7,7 @@ import NotFoundPage from 'pages/NotFoundPage/NotFoundPage'
 import { Route, Routes } from 'react-router-dom'
 import 'styles/main.scss'
 
-export default function App() {
+const App = () => {
 	return (
 		<>
 			<div className='app'>
@@ -25,3 +25,5 @@ export default function App() {
 		</>
 	)
 }
+
+export default App;
